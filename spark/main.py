@@ -11,5 +11,3 @@ counts = text_file.flatMap(lambda line: line.split(" ")) \
 ...              .reduceByKey(lambda a, b: a + b)
 
 counts.saveAsTextFile("/home/mardoniofranca/work/rive/desafio/github/maraca/data/save_line.txt")
-
-counts.repartion(1).saveAsTextFile("/home/mardoniofranca/work/rive/desafio/github/maraca/data/save_line.txt")
