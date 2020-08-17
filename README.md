@@ -37,4 +37,16 @@ dicionário do folclore brasileiro | Câmara Cascudo
   - [maracá app   ](https://maraca.herokuapp.com/)
 
 
-# Resultados
+# desafio 2
+
+1) Mineração e Preparação XLS:
+  - [maracá miner ](https://github.com/mardoniofranca/maraca/blob/master/miner/miner_xls.ipynb)
+
+2) Processamento Paralelo em Spark :
+  - [maracá dança ](https://github.com/mardoniofranca/maraca/blob/master/spark/main.py)
+
+3) Pós-Tratamento :
+  - [maracá dança ](https://github.com/mardoniofranca/maraca/blob/master/resultado/desc.ipynb)
+
+4) Visualização:
+  - [maracá app   ](https://maraca.herokuapp.com/) 
