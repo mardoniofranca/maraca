@@ -27,14 +27,15 @@ dicionário do folclore brasileiro | Câmara Cascudo
 
 # desafio 1
 
-1) Mineração api (compras e itens)
-[a link](https://github.com/mardoniofranca/maraca/blob/master/miner/api-request.ipynb)
+1) Mineração api (compras e itens):
+  - [maracá miner ](https://github.com/mardoniofranca/maraca/blob/master/miner/api-request.ipynb)
 
-2) Preparação 
-[a link](http://localhost:8888/notebooks/rive/desafio/github/maraca/prepare/)
+2) Preparação :
+  - [maracá dança ] (http://localhost:8888/notebooks/rive/desafio/github/maraca/prepare/)
 
-3) Visualização 
-[a link](https://maraca.herokuapp.com/)
+3) Visualização:
+  - [maracá app   ] (https://maraca.herokuapp.com/)
+
 
 
 
