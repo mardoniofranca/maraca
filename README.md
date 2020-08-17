@@ -8,8 +8,8 @@ dicionário do folclore brasileiro | Câmara Cascudo
 
 1) Mireração, Tratamento e Visualização
 
-- Consumo de uma API pública e Tratamento dos dados de Compras  
-- Apresentação das Seguintes informações:
+- Consumo de uma API pública e tratamento dos dados de Compras  
+- Apresentação das seguintes informações:
 
     1. Valores máximo, mínimo e médio das compras;
     2. Fornecedor mais frequente;
