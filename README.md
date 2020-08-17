@@ -4,7 +4,7 @@
 
 dicionário do folclore brasileiro | Câmara Cascudo
 
-# desafio
+# desafio 1
 
 1) Mireração, Tratamento e Visualização
 
@@ -16,11 +16,27 @@ dicionário do folclore brasileiro | Câmara Cascudo
     3. Quantidade de itens por compra;
     4. Número de serviços e materiais contratados.
 
+# desafio 2
+
 2) Processamento Paralelo de Dados Textuais sobre Covid
 - Tratamento Textuais de Tokens
 - Processamento Paralelo 
 - Apresentação : Palavras que são únicas e a contagem de repetidas
 
 # Implementação
+
+# desafio 1
+
+1) Mineração api (compras e itens)
+[a link](https://github.com/mardoniofranca/maraca/blob/master/miner/api-request.ipynb)
+
+2) Preparação 
+[a link](http://localhost:8888/notebooks/rive/desafio/github/maraca/prepare/)
+
+3) Visualização 
+[a link](https://maraca.herokuapp.com/)
+
+
+
 
 # Resultados
