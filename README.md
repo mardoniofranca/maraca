@@ -31,13 +31,10 @@ dicionário do folclore brasileiro | Câmara Cascudo
   - [maracá miner ](https://github.com/mardoniofranca/maraca/blob/master/miner/api-request.ipynb)
 
 2) Preparação :
-  - [maracá dança ] (http://localhost:8888/notebooks/rive/desafio/github/maraca/prepare/)
+  - [maracá dança ](https://github.com/mardoniofranca/maraca/blob/master/prepare/compras.ipynb)
 
 3) Visualização:
-  - [maracá app   ] (https://maraca.herokuapp.com/)
-
-
-
+  - [maracá app   ](https://maraca.herokuapp.com/)
 
 
 # Resultados
