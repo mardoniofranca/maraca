@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load widget_tweaks %}
+<form action="" method="post">{% csrf_token %}
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xl-8 col-lg-7">
+        <div class="card shadow mb-4">
+          <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Pesquisar Compra</h6>
+            <br />
+            <input type="submit" value="Pesquisar" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-8 col-lg-7">
+        <div class="card shadow mb-4">
+          <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Contato</h6>
+          </div>
+          <div class="card-body">
+
+            <div class="row">
+              <div class="col-sm-6 mb-3 mb-sm-0">
+                <h6 class="m-0 font-weight-bold text-primary">Endereço</h6>
+                <input type="text" id="id_endereco" class="form-control form-control-user" name="endereco" >
+              </div>
+            </div>
+
+            <br />
+
+            <div class="row">
+              <div class="col-sm-6 mb-3 mb-sm-0">
+                <h6 class="m-0 font-weight-bold text-primary">Nome</h6>
+                <input type="text" id="id_nome" class="form-control form-control-user" name="nome" >
+              </div>
+            </div>
+            <br />
+            <div class="row">
+              <div class="col-sm-6 mb-3 mb-sm-0">
+                <h6 class="m-0 font-weight-bold text-primary">Liderança</h6>
+                <input type="text" id="id_lideranca" class="form-control form-control-user" name="lideranca" >
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xl-8 col-lg-7">
+        <div class="card shadow mb-4">
+          <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Pesquisar Cliente</h6>
+            <br />
+            <input type="submit" value="Pesquisar" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+
+{% endblock content %}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+{% load fullurl %}
+{% load widget_tweaks %}
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>maracá</title>
+        <link href="{% static "css/styles.css" %}" rel="stylesheet">
+        <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="sb-nav-fixed">
+        <nav class="sb-topnav navbar navbar-expand navbar-light bg-light">
+            <a class="navbar-brand" href="#"> maracá </a>
+            <a href="javascript:close();"> <i class="fas fa-bars"></i> </a>
+            <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+            </form>
+        </nav>
+        <div id="layoutSidenav">
+            <div id="layoutSidenav_nav">
+                <nav class="sb-sidenav accordion sb-sidenav-light" id="sidenavAccordion">
+                    <div class="sb-sidenav-menu">
+                        <div class="nav">
+                        <div class="sb-sidenav-menu-heading">atlaspy | by rive tec.</div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div id="layoutSidenav_content">
+                <main>
+                  <br />
+                  <div class="container-fluid">
+
+                    <form action="" method="post">
+                      {% csrf_token %}
+                      <div class="container-fluid">
+
+                        <div class="row">
+                          <div class="col-xl-8 col-lg-7">
+                            <div class="card shadow mb-4">
+                              <div class="card-header py-3">
+                              </div>
+                              <div class="card-body">
+                                {% if form.errors %}
+                                  <p>Login e Senha falhos</p>
+                                {% endif %}
+                                {% if next %}
+                                  {% if user.is_authenticated %}
+                                    <p>Login e Senha falhos.</p>
+                                  {% else %}
+                                  {% endif %}
+                                {% endif %}
+                                <div class="row">
+                                  <div class="col-sm-6 mb-3 mb-sm-0">
+                                    <label class="small mb-1" >  {{ form.username.label_tag }} </label>
+                                    {{ form.username |add_class:'form-control form-control-user' }}
+                                  </div>
+                                </div>
+                                <br />
+
+                                <div class="row">
+                                  <div class="col-sm-6 mb-3 mb-sm-0">
+                                      <label class="small mb-1" > {{ form.password.label_tag }}</label>
+                                    {{ form.password |add_class:'form-control form-control-user' }}
+                                    <br />  <input type="submit" value="acessar" />
+                                  </div>
+                               </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                   </form>
+                  </div>
+                </main>
+                <footer class="py-4 bg-light mt-auto">
+                    <div class="container-fluid">
+                        <div class="d-flex align-items-center justify-content-between small">
+                            <div class="text-muted">maracá</div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script href="{% static "js/scripts.js" %}"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+        <script href="{% static "assets/demo/chart-area-demo.js" %}"></script>
+        <script href="{% static "assets/demo/chart-bar-demo.js" %}"></script>
+        <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
+        <script href="{% static "assets/demo/datatables-demo.js" %}"></script>
+        <script> function close() { $("body").toggleClass("sb-sidenav-toggled"); } </script>
+    </body>
+</html>
