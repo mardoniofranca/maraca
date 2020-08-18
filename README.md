@@ -34,7 +34,10 @@ dicionário do folclore brasileiro | Câmara Cascudo
   - [maracá dançar ](https://github.com/mardoniofranca/maraca/blob/master/prepare/compras_itens.ipynb)
 
 3) Visualização:
+  - [source django]  (https://github.com/mardoniofranca/maraca/blob/master/django/ )
   - [maracá festejar ](https://maraca.herokuapp.com/)
+  login: user
+  senha: maraca2020
 
 
 # desafio 2
@@ -53,3 +56,5 @@ dicionário do folclore brasileiro | Câmara Cascudo
 
 4) Visualização:
   - [maracá festejar ](https://maraca.herokuapp.com/) 
+  login: user
+  senha: maraca2020
