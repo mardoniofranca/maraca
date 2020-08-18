@@ -35,9 +35,7 @@ dicionário do folclore brasileiro | Câmara Cascudo
 
 3) Visualização:
   - [source django]  (https://github.com/mardoniofranca/maraca/blob/master/django/ )
-  - [maracá festejar ](https://maraca.herokuapp.com/)
-  login: user
-  senha: maraca2020
+  - [maracá festejar ](https://maraca.herokuapp.com/)  (login: user) |  (senha: maraca2020)
 
 
 # desafio 2
