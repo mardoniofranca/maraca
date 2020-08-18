@@ -52,7 +52,3 @@ dicionário do folclore brasileiro | Câmara Cascudo
 3) Pós-Tratamento :
   - [maracá trançar ](https://github.com/mardoniofranca/maraca/blob/master/treat/text.ipynb)
 
-4) Visualização:
-  - [maracá festejar ](https://maraca.herokuapp.com/) 
-  login: user
-  senha: maraca2020
