@@ -46,7 +46,7 @@ dicionário do folclore brasileiro | Câmara Cascudo
   - [maracá dança ](https://github.com/mardoniofranca/maraca/blob/master/spark/main.py)
 
 3) Pós-Tratamento :
-  - [maracá fogueira ](https://github.com/mardoniofranca/maraca/blob/master/resultado/desc.ipynb)
+  - [maracá fogueira ](#)
 
 4) Visualização:
   - [maracá app   ](https://maraca.herokuapp.com/) 
