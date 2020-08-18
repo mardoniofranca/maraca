@@ -49,7 +49,7 @@ dicionário do folclore brasileiro | Câmara Cascudo
   - [maracá pescar ](https://github.com/mardoniofranca/maraca/blob/master/spark/main.py)
 
 3) Pós-Tratamento :
-  - [maracá trançar ](https://github.com/mardoniofranca/maraca/blob/master/treat/text.py)
+  - [maracá trançar ](https://github.com/mardoniofranca/maraca/blob/master/treat/text.ipynb)
 
 4) Visualização:
   - [maracá festejar ](https://maraca.herokuapp.com/) 
