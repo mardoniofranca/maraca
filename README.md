@@ -28,25 +28,28 @@ dicionário do folclore brasileiro | Câmara Cascudo
 # desafio 1
 
 1) Mineração api (compras e itens):
-  - [maracá miner ](https://github.com/mardoniofranca/maraca/blob/master/miner/api-request.ipynb)
+  - [maracá minerar ](https://github.com/mardoniofranca/maraca/blob/master/miner/api-request.ipynb)
 
 2) Preparação :
-  - [maracá dança ](https://github.com/mardoniofranca/maraca/blob/master/prepare/compras_itens.ipynb)
+  - [maracá dançar ](https://github.com/mardoniofranca/maraca/blob/master/prepare/compras_itens.ipynb)
 
 3) Visualização:
-  - [maracá app   ](https://maraca.herokuapp.com/)
+  - [maracá festejar ](https://maraca.herokuapp.com/)
 
 
 # desafio 2
 
 1) Mineração e Preparação XLS:
-  - [maracá miner ](https://github.com/mardoniofranca/maraca/blob/master/miner/miner_xls.ipynb)
+  - [maracá minerar ](https://github.com/mardoniofranca/maraca/blob/master/miner/miner_xls.ipynb)
+
+2) Preparação :
+  - [maracá dançar ](https://github.com/mardoniofranca/maraca/blob/master/prepare/text.ipynb)
 
 2) Processamento Paralelo em Spark :
-  - [maracá dança ](https://github.com/mardoniofranca/maraca/blob/master/spark/main.py)
+  - [maracá pescar ](https://github.com/mardoniofranca/maraca/blob/master/spark/main.py)
 
 3) Pós-Tratamento :
-  - [maracá fogueira ](#)
+  - [maracá trançar ](#)
 
 4) Visualização:
-  - [maracá app   ](https://maraca.herokuapp.com/) 
+  - [maracá festejar ](https://maraca.herokuapp.com/) 
