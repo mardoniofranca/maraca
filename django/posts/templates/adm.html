@@ -12,7 +12,7 @@
                 <div class="card bg-primary text-white mb-4">
                     <div class="card-body">Valor Médio:  </div>
                     <div class="card-footer d-flex align-items-center justify-content-between">
-                      {% for t in total %}
+                      R$    {% for t in total %}
                         {{ t.valor_medio |localize}}
                       {% endfor %}
                     </div>

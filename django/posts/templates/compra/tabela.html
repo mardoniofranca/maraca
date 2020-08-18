@@ -4,10 +4,7 @@
 
       <div class="card mb-4">
           <div class="card-header"><i class="fas fa-shopping-cart mr-1"></i>Compras </div>
-          <div class="card-body">
-                <input type="submit" value="Pesquisar Contato" /onclick="window.location='/cliente/pesquisar/';">
-          </div>
-
+        
       </div>
 
 
@@ -73,7 +70,7 @@
                             <td>{{ post.data_publicacao }}</td>
                             <td> {{ post.valor_estimado }}</td>
                             <td>
-                                <a href="{{ request.scheme }}://{{ request.META.HTTP_HOST }}/compra/{{ post.codigo }}/itens/">
+                                <a href="#">
                                   Itens </a>
                                   <br />
                             </td>

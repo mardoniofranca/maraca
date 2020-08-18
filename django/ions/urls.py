@@ -11,8 +11,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/'    ,       include('django.contrib.auth.urls')),
     path(""             ,       posts.views.index, name="index"),
-
     path("compra/listar_compras/",               posts.views.compra_listar,   name="compra_listar"),
-    path("compra/pesquisar_compras/",            posts.views.compra_pesquisar,name="compra_pesquisar"),
 
 ]
